@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hayatt</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="awards.css">
+
+
+
+
+  <!-- AOS  -->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <!-- icon -->
+  <link rel="shortcut icon" href="https://img.freepik.com/free-psd/logo-mockup-grey-wall_35913-2122.jpg?w=2000"
+    type="image/x-icon">
+  <script type="application/ld+json">{
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "",
+          "logo": "images/default-logo.png"
+      }</script>
+  <meta name="theme-color" content="#478ac9">
+  <meta property="og:title" content="Page 2">
+  <meta property="og:type" content="website">
+  <!-- Fonts -->
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+</head>
+
+<body class="award-body u-body">
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <script>
+    window.addEventListener("load", () => {
+      const preloader = document.querySelector("#preloader");
+      const loader = document.querySelector(".loader-bg");
+
+      preloader.classList.add("preloader-hidden");
+      preloader.addEventListener("transitionend", () => {
+        document.body.classList.remove("reloader");
+        document.body.classList.remove("loader-bg");
+
+      });
+    });
+  </script>
+  <header class=" header" id="header">
+    <!-- navbar -->
+    <nav class="navbar nav-registration navbar-expand-lg navbar-light position-fixed ">
+      <div class="container-fluid top-header ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+          <ul class="navbar-nav menus">
+            <li class="nav-item">
+              <a class="nav-link  btn active" aria-current="page" href="index.html"><i id="about"
+                  class="fa fa-home icon" aria-hidden="true"></i> ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  btn active" href="Menu.html"><i class="fa fa-cutlery  icon" id="menu"
+                  aria-hidden="true"></i> MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  btn active" href="Timing.html"><i class="fa fa-clock-o icon"></i>DINING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  btn active" href="reservation.html"><i class="fa fa-pencil-square icon"
+                  id="reservation" aria-hidden="true"></i> RESERVATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  btn active" href="awards.html"><i class="fa fa-star icon"
+                  aria-hidden="true"></i>AWARDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  btn active" href="location.html"><i class="fa fa-map-marker icon"
+                  aria-hidden="true"></i> LOCATION</a>
+            </li>
+            <!--  -->
+          </ul>
+          <ul class="navbar-nav justify-content-end ">
+            <li class="nav-item">
+              <a class="nav-link  btn active"><i class="fa fa-phone icon" aria-hidden="true"></i> +91
+                8894132038</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  btn active"><i class="fa fa-envelope icon" aria-hidden="true"></i>
+                hayattrestaurent@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="text-center clearfix award-img-1" data-image-height="850" data-image-width="1200px">
+    <div class="clearfix ">
+      <div class="text-center container  award-top-1 animated justify-content-center  container-blue"
+        data-animation-name="customAnimationIn" data-aos="fade-up" data-animation-duration="2000"
+        style="will-change: transform, opacity; animation-duration: 2000ms;">
+        <div class=" align-self-center   award-top-2">
+
+
+          <h2 class="award-section-1 "> We're ready to share our advice and experience</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main class="container ">
+    <section class="bg-light">
+      <div class="text-center bg-white slide-box">
+        <h3 class="award-font-1 d-md-flex justify-content-center text-left ">Company Awards</h3>
+        <div class="text-center text-secondary award-container-1 text-center list-group    " data-aos="fade-down">
+          <div class=" row ">
+            <div class="list-group-item section-div-1 d-flex col-lg-6 col-12">
+              <div class="award-box-1  text-center">
+                <div class="shape"> </div>
+                <p class="award-text-1 text-center"><ul>
+                 <li> 100 Best Companies to Work For - FORTUNE and Great Place to Work® </li> 
+                <li>  2018 Best Workplaces for Women - FORTUNE and Great Place to Work®  </li>
+                 <li> 2018 Best Multinational Workplaces in Asia - Great Place to Work®</li>
+                </ul>
+                </p>
+                  
+              </div>
+            </div>
+            <div class="list-group-item sectionaward-top-div-1 d-flex col-lg-6 col-12">
+              <div class="award-box-1 text-center">
+                <div class="shape"> </div>
+                <p class="award-text-1 text-center"><ul>
+                <li> Best Workplaces in the UAE - Great Place to Work UAE </li>
+                  <li> 100 Best Workplaces for Millennials - FORTUNE </li>
+                <li> The Best Employers for New Grads - Forbes </li></ul></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="list-group-item section-div-1 d-flex col-lg-6 col-12">
+              <div class="award-box-1 text-center">
+                <div class="shape"></div>
+                <p class="award-text-1 text-center"> <ul>
+                 <li> 2018 Customer Excellence Award - CrowdStrike® </li>
+                 <li> 2018 50 Best Companies for Latinas to Work for in the U.S. - LATINA Style </li>
+              
+                 <li> 100 Best Workplaces for Diversity - FORTUNE and Great Place to Work® </li>
+                </ul> <p>
+
+              </div>
+            </div>
+            <div class="list-group-item section-div-1 d-flex col-lg-6  col-12">
+              <div class="award-box-1 text-center">
+                <div class="shape"></div>
+                <p class="award-text-1 text-center"><ul>
+             <li>     Best Places to Work for LGBT Equality - Human Rights Campaign </li>
+
+   <li> Destination Hotels, HSMAI Adrian Award, Silver winner, Destination Hotels + BabyQuip partnership </li>
+
+   <li> A HSMAI Adrian Awards Bronze winner for its “30 Days of Joie” campaign in the Digital Campaign - Experiential category </li>
+                               And Alot more...... /ul>
+                              
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section class="text-right clearfix">
+      <div class="clearfix">
+        <div class="container text-left myimage section-div-2 animated d-flex "
+          style="will-change: transform, opacity; animation-duration: 2000ms;">
+          <div class="justify-content-center d-flex flex-column " data-aos="fade-down">
+            <h2 class="award-text-2 animate__jackInTheBox">Marketing</h2>
+            <p class="award-text-3  ">The hotel also received awards for its spa and restaurant; Sokoun Spa and Fitness
+              Center won the title of Luxury City Hotel Spa (global winner) and the all-day American diner, 56th Avenue
+              Diner, was named the best Luxury Grill (global winner) by the World Luxury Hotel Awards.</p>
+
+          </div>
+        </div>
+
+
+        <div class="clearfix text-right award-section-3">
+          <div class="award-container-3">
+            <div class="d-flex flex-column">
+              <div class="award-content-1">
+                <div class="flex-row row">
+                  <div class="award-content-2 text-left col-sm-6">
+                    <div class=" justify-content-center  award-inner-1 wow popup ">
+                      <h4 class="award-text-2">1</h4>
+                      <p class="color-grey award-font-2">
+                        Both the World Luxury Hotel Awards and the World Travel Awards take place every year, and
+                        winners are selected based on country-wide nominations, as well as continental and global
+                        nominations. The winners are selected through online public voting
+                      </p>
+                    </div>
+                  </div>
+                  <div class="award-img-3 award-border-cell popdown  col-sm-6" data-image-width="1200"
+                    data-image-height="800">
+                    <div class="award-container-layout"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="award-content-1">
+                <div class="flex-row row">
+                  <div class="award-content-2 text-left col-sm-6 container-blue ">
+                    <div class=" justify-content-center  award-inner-1">
+                      <h4 class="award-text-2 ">2</h4>
+                      <p class="award-font-2">“We are very happy to have been named Saudi Arabia’s Leading Business
+                        Hotel 2021 by the World Travel Awards and The Best Luxury Business Hotel in the Middle East by
+                        the World Luxury Hotel Awards for the third consecutive year,”</p>
+
+                    </div>
+                  </div>
+                  <div class="award-img-4 image award-border-cell popdown col-sm-6" data-image-width="1200"
+                    data-image-height="800">
+                    <div class="award-container-layout"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-left clearfix">
+      <div class="clearfix justify-content-center">
+        <div class="container">
+          <div>
+            <div class="award-content-3">
+              <div class="row">
+                <div class="col-md-6  text-left container animated">
+                  <div data-aos="fade-down">
+                    <h2 class=" award-font-3 text-light ">Branding Agency</h2>
+                    <h6 class="award-font-4">We dwelling elegance do shutters appetite yourself diverted.</h6>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="container award-container-layout">
+                    <p class="color-grey">Hyatt Regency Riyadh Olaya, the first Hyatt hotel in the capital of KSA, has
+                      received four esteemed titles awarded by the renowned World Luxury Hotel Awards and World Travel
+                      Awards, which recognises hotels for their world-class service excellence. The hotel was named
+                      Saudi Arabia's Leading Business Hotel 2021 by the travel and business industry’s most prestigious
+                      award program, the World Travel Awards, for the third consecutive year. It was also recognised as
+                      the Best Luxury Business Hotel in the Middle East by the World Luxury Hotel Awards<br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clearfix justify-content-center mt-5 pt-5">
+      <div class="clearfix col-md col-lg d-flex flex-column">
+        <div class="clearfix award-section-4">
+          <div class="award-container-layout">
+            <div class="d-flex row">
+              <div class="col-md-3 col-12 award-img-5 image ">
+                <div class="award-inner-2"></div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="d-flex flex-column justify-content-center">
+                  <div class=" text-center d-flex ">
+                    <div class="d-grid">
+                      <div class=" award-container-4">
+                        <div class="text-left">
+                          <h3 class="award-font-5 text-center" id="percentage1">166<span>%</span></h3>
+                          <p class="award-text-3">Our progress increment</p>
+                        </div>
+                      </div>
+                      <div class="award-container-4">
+                        <div class="text-left">
+
+                          <h3 class="award-font-5 text-center" id="percentage2">190<span>%</span></h3>
+                          <p class="award-text-3">Countries where Our hotels are available</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 text-left award-container-5">
+                <div class="d-flex justify-content-flex-start flex-column" data-aos="fade-down">
+                  <h2 class="award-text-2">Let's count our progress!</h2>
+                  <p class="award-text-3">Its service, technology, design, restaurant and bar concepts are constantly
+                    innovative, striving for new and better hotels. This is what makes the Hyatt successful and exciting
+                    hotel chain today.&nbsp; </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container clearfix text-align-center award-section-5 pb-5 mb-5">
+      <div class="clearfix sheet ">
+        <h1 class="pb-4">OUR FOUNDERS AND BOARD MEMBERS</h1>
+        <div class="row mb-5">
+          <div class="col-lg-6 col-12">
+            <div>
+              <div class="row mb-5 " data-aos="flip-up">
+                <div class="col-lg-6 col-12 m-md-auto m-4">
+                  <img src="https://togo.hotelbusiness.com/wp-content/uploads/2018/01/TJPritzker-Crop.jpg"
+                    class="circle-bounce rounded-circle z-depth-2 award-img-6 image" alt="100x100"
+                    data-holder-rendered="true">
+                </div>
+                <div class="col-lg-6 col-12 ">
+                  <h4 class="award-text-blue ">Thomas Pritzker</h4>
+                  <p>
+                    Thomas J. Pritzker has been a member of our board of directors since August 2004 and our Executive
+                    Chairman since August 2004. Mr. Pritzker served as our Chief Executive Officer from August 2004 to
+                    December 2006. </p><span></span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 col-12">
+            <div class="row mb-5" data-aos="flip-up">
+              <div class="col-lg-6 col-12 m-md-auto m-4">
+                <img src="https://www.hoteliermiddleeast.com/2021/06/PhuD6Lkw-Mark_Hyatt-HME-1200x900-1.jpg"
+                  class="rounded-circle z-depth-2 award-img-6 image" alt="100x100" data-holder-rendered="true">
+              </div>
+              <div class="col-lg-6 col-12">
+                <h4 class="award-text-blue">Mark Hoplamazian</h4>
+                <p> Hyatt President & CEO since 2006, with a daily focus on realizing Hyatt's purpose - to care for
+                  people so they can be their best. Steadfast champion of diversity, equity and inclusion. </p>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 col-12">
+            <div class="row mb-5 " data-aos="flip-up">
+              <div class="col-lg-6 col-12 m-md-auto m-4">
+                <img src="https://knightfoundation.org/wp-content/uploads/2019/06/160613_Knight_0027_web.jpg"
+                  class="rounded-circle z-depth-2 award-img-6 image" alt="100x100" data-holder-rendered="true">
+              </div>
+              <div class="col-lg-6 col-12">
+                <div>
+                  <h4 class="award-text-blue">Susan D. Kronick</h4>
+                  <p class="text-body">Susan D. Kronick has been a member of our board of directors since June 2009. Ms.
+                    Kronick currently serves as an advisor at Marvin Traub Associates, a retail business development
+                    firm, and served as an Operating Partner at the firm from 2012 to 2021. stores.</p><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="row mb-5" data-aos="flip-up">
+              <div class="col-lg-6 col-12 m-md-auto m-4">
+                <img src="https://media.bizj.us/view/archive/triad/news/post-mackey-mcdonald.jpg?v=1"
+                  class="rounded-circle z-depth-2 award-img-6 image" alt="100x100" data-holder-rendered="true">
+              </div>
+              <div class="col-lg-6 col-12">
+                <div>
+                  <h4 class="award-text-blue"> Mackey J. McDonald </h4>
+                  <p>Mackey J. McDonald has been a member of our board of directors since June 2009. Mr. McDonald served
+                    as a Senior Advisor to Crestview Partners, a private equity firm, from 2008 to 2019. Mr. McDonald
+                    served as Chairman and Chief Executive Officer of VF Corporation.</p><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="row mb-5" data-aos="flip-up">
+              <div class="col-lg-6 col-12 m-md-auto m-4">
+                <img
+                  src="https://giesbusiness.illinois.edu/images/default-source/default-album/cary-mcmillan-jpg.png?sfvrsn=4178fa2a_1"
+                  class="rounded-circle z-depth-2 award-img-6 image" alt="100x100" data-holder-rendered="true">
+              </div>
+              <div class="col-lg-6 col-12">
+                <div>
+                  <h4 class="award-text-blue"> Cary D. McMillan </h4>
+                  <p>Cary D. McMillan has been a member of our board of directors since June 2013. Mr. McMillan retired
+                    as the Chief Executive Officer of True Partners Consulting LLC (“True Partners”), a nationwide
+                    provider of tax and financial consulting services, in 2020. Mr. McMillan co-founded True Partners in
+                    2005.</p><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="row mb-5" data-aos="flip-up">
+              <div class="col-lg-6 col-12 m-md-auto m-4">
+                <img src="https://cdn.theorg.com/b51a4970-53ce-4dc1-bb19-12d64a3e127d_medium.jpg"
+                  class="rounded-circle z-depth-2 award-img-6 image" alt="100x100" data-holder-rendered="true">
+              </div>
+              <div class="col-lg-6 col-12">
+                <div>
+                  <h4 class="award-text-blue">Dion Camp Sanders</h4>
+                  <p>Dion Camp Sanders has been a member of our board of directors since September 2021. Mr. Sanders is
+                    Chief Strategy Officer at Peloton Interactive, Inc. where he leads the company's corporate strategy,
+                    mergers and acquisitions, and ESG functions. </p><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <section class="clearfix   award-section-6 pb-2">
+    <div class="container-blue award-container-6"></div>
+    <div class="container clearfix award-container-7">
+      <div>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-down" style="background : #afafaf;">
+            <div class="m-4 font-weight-bold ">
+              <h2 style="font-weight:bolder;">We Can Help You Reach the Top of Search Results</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="pt-4 ">
+              <h4 class="text-weight-bold" style="font-weight:bolder;">Team of Experts</h4>
+              <p class="pt-1 pr-4 text-weight-bold" style="font-weight:500;">Our team is ready for any challenge! We put
+                our joint efforts to generate brave business ideas and
+                solutions to meet our clients needs and requirements!</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="pt-4">
+              <h4 class="text-weight-bond" style="font-weight:bolder;">Award Winner</h4>
+              <p class="pr-4" style="font-weight:500;">Our team is ready for any challenge! We put our joint efforts to
+                generate brave business ideas and
+                solutions to meet our clients needs and requirements!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+  <div>
+    <h1 class="text-center pb-5" style="color: #478ac9;">Our developing teams</h1>
+  </div>
+  <div id="carouselExampleIndicators" class="container carousel slide header-img" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <section class="container">
+      <div class="carousel-inner justify-content-center">
+        <div class="carousel-item active row  ">
+          <div col-sm-5>
+
+            <img src="images/WhatsApp Image 2022-05-19 at 10.58.37 AM.jpeg" data-image-width="1200"
+              data-image-height="1200" class="d-block  award-slide float-left" alt="...">
+          </div>
+          <div class=" col-sm-7 text-dark  float-right">
+            <h5 class="pt-4" style="font-weight:bolder; font-size: 3rem;">Aryan Sharma</h5>
+            <p class="pt-4" style="font-weight:500; ">"I am the group leader of the project work . I have designed every
+              page. "</p>
+          </div>
+        </div>
+        <div class="carousel-item row  ">
+          <div class="col-sm-5">
+            <img src="images/skhdfhsfl.jpeg" data-image-width="1200" data-image-height="1200"
+              class="d-block float-left award-slide" alt="...">
+          </div>
+          <div class=" col-sm-7 text-dark float-right ">
+            <h5 class="pt-4" style="font-weight:bolder; font-size: 3rem;">Ankit Jangra</h5>
+            <p class="pt-4" style="font-weight:500; "> I am a front-end developer and I had mainly developed the menu
+              page.</p>
+          </div>
+        </div>
+        <div class="carousel-item row  ">
+          <div class="col-sm-5">
+            <img src="images/WhatsApp Image 2022-05-19 at 10.59.09 AM.jpeg" data-image-width="1200"
+              data-image-height="1200" class="d-block float-left award-slide" alt="...">
+          </div>
+          <div class=" col-sm-7 text-dark float-right ">
+            <h5 class="pt-4" style="font-weight:bolder; font-size: 3rem;">Arnav Kumar</h5>
+            <p class="pt-4" style="font-weight:500; ">"I am a designer. I have collected the content also "</p>
+          </div>
+        </div>
+        <div class="carousel-item row  ">
+          <div class="col-sm-5">
+            <img src="images/WhatsApp Image 2022-05-19 at 11.00.28 AM.jpeg" data-image-width="1200"
+              data-image-height="1200" class="d-block float-left award-slide" alt="...">
+          </div>
+          <div class=" col-sm-7 text-dark float-right ">
+            <h5 class="pt-4" style="font-weight:bolder; font-size: 3rem;">fardinulislam Rahat</h5>
+            <p class="pt-4" style="font-weight:500; ">"I have helped in content decoration."</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  </section>
+
+  <section class="award-img-7 img clearfix " data-image-width="720" data-image-height="1080">
+    <div class=" award-section-7 container ">
+      <div class="d-flex justify-content-center pb-5 pt-5 ">
+        <div>
+          <div>
+            <div class=" award-container-8 ">
+              <div class="award-container-9 d-flex flex-column ">
+                <h6>Contact Us</h6>
+                <div class="award-form-1">
+
+                  <form class=" d-table award-form" action="feedback.php" method="post">
+                    <input type="hidden">
+                    <input type="hidden">
+
+                    <div class="award-text-start  mb-2 pl-2 w-100">
+                      <label class="text-align-start" for="">Name</label>
+                      <input class="award-label-name award-input" placeholder="Enter Your Name" type="text" name="name">
+                    </div>
+                    <div class="text-start  mb-2 pl-2 w-100">
+                      <label class="award-text-align-start" for="">Email</label>
+                      <input class="award-label-name award-input" placeholder="Enter a valid email address" name="email"
+                        type="text">
+                    </div>
+                    <div class="award-text-start  mb-2 pl-2 w-100">
+                      <label class="text-align-start" for="">Message</label>
+
+
+                      <textarea class="award-label-name mb-2 award-input" name="message" id="message-1" cols="50"
+                        rows="5" name="message"></textarea>
+
+                    </div>
+                    <div class=" pl-2 w-50 award-submit d-flex flex-column">
+
+                      <button class="w-40  mb-0   award-form-submit" type="Submit" onclick="submitForm()" value="Submit"
+                        id="btnsubmit">Submit</button>
+                      <!-- <a class="w-40  mb-0   award-form-submit" onclick="submit()" type="submit" href="#">Submit</a> -->
+                      <!-- <input class="w-100  mb-0   award-form-submit"  type="button" value="Submit" id="btnsubmit" onclick="submitForm()"> -->
+                    </div>
+
+                    <div class="award-form-send-success ">Thank you! Your message has been sent</div>
+                    <div class="award-form-send-error">Unable to send your meddage. Please fix error then try again.
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <!-- AOS  FRAMEWORK  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 300, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 700, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
+
+</body>
+
+</html>
