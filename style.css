@@ -6120,51 +6120,47 @@ blockquote {
 
 }
 @media only screen and (max-width:480px){
-  /* .container-3 {
-    padding-top: 50px;
-    left: 20px;
-    width:30% !important;
-
-    padding-right: 0px;
-    justify-content: right;
+  .menu-breakfast-0 {
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative;
+    padding: 0 30px;
   }
-  .menu{
-    padding-top: 5rem;
-  } */
-
+  
+  .menu-breakfast-0 h3 {
+    font-weight: 2rem !important;
+    font-family: Aclonica;
+    font-size: 2rem;
+    padding-top: 0rem;
+  }
   .menu-img-1 {
     width: 16.5rem;
     height: 17rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    object-fit: cover;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
     position: relative;
-    display: flex;
-    flex: 0 0 50%;
   }
 
   .menu-img-3 {
     width: 16.5rem;
     height: 17rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    object-fit: cover;
-    position: relative;
-    display: flex;
-    flex: 0 0 50%;
+  }
+
+  .menu-img-5{
+    width: 16.5rem;
+    height: 17rem;
   }
 
   .lunch-1 {
     width: 16.5rem;
     height: 17rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    object-fit: cover;
-    position: relative;
-  
+  }
+
+  .menu-img-13{
+    width: 16.5rem;
+    height: 17rem;
   }
 }
 
