@@ -6137,38 +6137,54 @@ blockquote {
   .menu-img-1 {
     width: 16.5rem;
     height: 17rem;
-    justify-content: center;
-    display: flex !important;
-    flex-direction: column !important;
-    position: relative;
+    display: block;
+    margin: 0 auto;
   }
 
   .menu-img-3 {
     width: 16.5rem;
     height: 17rem;
+    display: block;
+    margin: 0 auto;
   }
   .menu-img-5{
     width: 16.5rem;
     height: 17rem;
+    display: block;
+    margin: 0 auto;
   }
   .lunch-1 {
     width: 16.5rem;
     height: 17rem;
+    display: block;
+    margin: 0 auto;
   }
   .menu-img-9{
     width: 16.5rem;
     height: 17rem;
+    display: block;
+    margin: 0 auto;
   }
   .menu-img-11{
     width: 16.5rem;
     height: 17rem;
+    display: block;
+    margin: 0 auto;
   }
   .menu-img-13{
     width: 16.5rem;
     height: 17rem;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .menu-min-1{
+    width: 70% !important;
+  }
+  .menu-min-2{
+    width: 30% !important;
   }
 }
-
 .menu-span-1{
   color: #ba55d365;
 }
