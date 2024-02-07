@@ -6120,17 +6120,7 @@ blockquote {
 
 }
 @media only screen and (max-width:480px){
-  .menu-breakfast-0 {
-    justify-content: center;
-    display: flex !important;
-    flex-direction: column !important;
-    position: relative;
-    padding: 0 30px;
-  }
-  
   .menu-breakfast-0 h3 {
-    font-weight: 2rem !important;
-    font-family: Aclonica;
     font-size: 2rem;
     padding-top: 0rem;
   }
@@ -6179,10 +6169,13 @@ blockquote {
   }
   
   .menu-min-1{
-    width: 70% !important;
+    width: 80% !important;
   }
   .menu-min-2{
-    width: 30% !important;
+    width: 20% !important;
+  }
+  .menu-min-1 h1{
+    font-size:1.5rem;
   }
 }
 .menu-span-1{
